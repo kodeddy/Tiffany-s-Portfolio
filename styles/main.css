@@ -43,3 +43,51 @@
 body {
     background-color: blanchedalmond;
 }
+
+#hr-flip{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    /* border-right: none;
+    border-bottom: none; */
+    background-color:transparent;
+}
+
+#hr-flip:after{
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    -webkit-transform: skewY(-30deg) skew(-30deg);
+    -moz-transform: skewY(-30deg) skew(-30deg);
+    transform: skewY(-30deg) skew(-30deg);
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    transform-origin: right top;
+    -ms-transform: skewY(-30deg) skew(-30deg);
+    -o-transform: skewY(-30deg) skew(-30deg);
+}
+#hr-flip:before{
+    position: absolute;
+    content: '';
+    top: 49px;
+    right: -13px;
+    height: 30px;
+    width: 36px;
+    border-radius: 50%;
+    border-top: 2px solid;
+    -webkit-transform: translate(-20px, -26px) rotate(45deg);
+    -moz-transform: translate(-20px, -26px) rotate(45deg);
+    transform: translate(-20px, -26px) rotate(45deg);
+    box-shadow: -35px -2px 0px #ffebcd, -35px -4px 0px black,35px -1px 0px #ffebcd, 34px -3px 0px black, -4px 56px 0px 16px #ffebcd, -4px 53px 0px 15px black, -65px 56px 0px 16px #ffebcd, -65px 53px 0px 15px black, -4px 53px 0px 15px black, 62px 56px 0px 20px #ffebcd, 61px 52px 0px 18px black;
+    -ms-transform: translate(-20px, -26px) rotate(45deg);
+    -o-transform: translate(-20px, -26px) rotate(45deg);
+}
+
+
