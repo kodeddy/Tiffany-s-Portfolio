@@ -33,7 +33,7 @@
     left: 0;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 3px;
 }
 
 .tree li:first-child:before {
@@ -95,4 +95,8 @@
     -moz-transform: scale(1.02);
     -ms-transform: scale(1.02);
     -o-transform: scale(1.02);
+}
+
+.no_shadow button{
+    box-shadow: none !important;
 }
