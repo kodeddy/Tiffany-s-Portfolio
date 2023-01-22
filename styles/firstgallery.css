@@ -85,7 +85,7 @@
 }
 
 .tree span img {
-    width: 70% !important;
+    /* width: 70% !important ; */
 }
 
 .tree span:hover {

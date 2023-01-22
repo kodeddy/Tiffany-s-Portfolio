@@ -47,9 +47,40 @@
                 portfolio. You will see pictures I took and am glad to portray to the world. I just <span
                     class="text-decoration-line-through">hope</span> know you'll love them!
             </p>
-            <a href="./firstgallery.html" class="btn btn-dark">To my gallery! &#127756</a>
+            <!-- <a href="./firstgallery.html" class="btn btn-dark">To my gallery! &#127756</a> -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                To my gallery! &#127756
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade bg-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog tiff_head fs-3">
+                    <div class="modal-content bg-dark text-light">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Caution!</h5>
+                            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        </div>
+                        <div class="modal-body">
+                            This page is best viewed on a large screen. <br> Continue?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, go
+                                back.</button>
+                            <a href="./firstgallery.html"><button type="button" class="btn btn-primary">Understood.
+                                    Please proceed.</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
 
 </body>
 
