@@ -84,9 +84,9 @@
     outline: none;
 }
 
-.tree span img {
-    /* width: 70% !important ; */
-}
+/* .tree span img {
+    width: 70% !important ;
+} */
 
 .tree span:hover {
     box-shadow: 0 4px 7px 5px rgb(0 0 0 / 50%);
